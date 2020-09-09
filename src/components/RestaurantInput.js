@@ -59,4 +59,4 @@ const mapDispatchToProps = dispatch => {
 
 
 //connect this component by wrapping RestaurantInput below
-export default RestaurantInput
+export default connect(mapDispatchToProps)(RestaurantInput);
